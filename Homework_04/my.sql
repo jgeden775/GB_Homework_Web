@@ -19,7 +19,7 @@ INSERT INTO classmates (name, age, address) VALUES ('Marina', 25, 'Saint Petersb
 INSERT INTO classmates (name, age, address) VALUES ('Artem', 43, 'Chelyabinsk');
 
 -- fetch 
-SELECT * FROM classmates
+SELECT name FROM classmates
 WHERE address = 'Moscow'
 AND age >= 18 AND age < 30
 ORDER BY age;
